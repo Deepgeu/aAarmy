@@ -1,0 +1,289 @@
+/*
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Background Theme 
+body {
+    background: #222;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Clock UI 
+.clock-container {
+    background: #333;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.3);
+    width: 350px;
+}
+
+.clock {
+    font-size: 2rem;
+    margin: 10px 0;
+    background: #000;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Alarm Section 
+.alarm-section {
+    margin-top: 15px;
+}
+
+input {
+    padding: 5px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    padding: 5px 10px;
+    background: #ff9800;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #e68900;
+}
+
+/* Alarm List 
+.alarm-list {
+    margin-top: 15px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: #444;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+second 
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+body {
+    background: radial-gradient(circle, #0f0f0f 30%, #1a1a1a 90%);
+    color: #0ff; /* Neon Cyan 
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+.clock-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+h1 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-shadow: 0 0 10px cyan, 0 0 20px cyan;
+}
+
+/* Digital Clock Display 
+#current-time {
+    font-size: 4rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    background: rgba(0, 255, 255, 0.2);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.5);
+}
+
+/* Input & Button Styles 
+.input-section {
+    margin-top: 20px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.4);
+    width: 40%;
+    min-width: 300px;
+}
+
+input, button {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1rem;
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+input {
+    width: 70%;
+    background: rgba(0, 255, 255, 0.1);
+    color: #0ff;
+    border-bottom: 2px solid cyan;
+}
+
+button {
+    background: #0ff;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #fff;
+    color: #000;
+    box-shadow: 0 0 10px cyan;
+}
+
+/* Alarm List 
+#alarms {
+    margin-top: 20px;
+    list-style: none;
+    padding: 0;
+}
+
+#alarms li {
+    font-size: 1.2rem;
+    padding: 10px;
+    background: rgba(0, 255, 255, 0.1);
+    border-radius: 5px;
+    margin: 5px 0;
+    box-shadow: 0 0 5px cyan;
+}
+
+@media (max-width: 768px) {
+    #current-time {
+        font-size: 2.5rem;
+    }
+}
+*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&family=Kaushan+Script&display=swap');
+
+body {
+    background: linear-gradient(135deg, #f8c6ff, #c6e2ff);
+    color: #6b5b95;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding: 20px;
+    transition: all 0.5s ease-in-out;
+    animation: fadeIn 2s ease-in;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.clock-container {
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(8px);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    margin: auto;
+}
+
+h1 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 2.2rem;
+    color: #ff88a9;
+    text-shadow: 0 2px 8px rgba(255, 136, 169, 0.4);
+}
+
+#current-time {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #6b5b95;
+    padding: 10px;
+    transition: 0.5s;
+}
+
+/* Input & Button Styling */
+.input-section {
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+input, button {
+    font-family: 'Poppins', sans-serif;
+    padding: 8px;
+    margin: 5px;
+    border: none;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+input {
+    width: 70%;
+    background: rgba(255, 255, 255, 0.7);
+    color: #6b5b95;
+    border: 1px solid #d1a3ff;
+}
+
+button {
+    background: #ff88a9;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(255, 136, 169, 0.3);
+}
+
+button:hover {
+    background: #ff6492;
+}
+
+/* Alarm List */
+#alarms {
+    list-style: none;
+    padding: 0;
+    margin-top: 15px;
+}
+
+#alarms li {
+    font-size: 1.2rem;
+    background: rgba(255, 255, 255, 0.6);
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.delete-btn {
+    background: #ff4d4d;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.delete-btn:hover {
+    background: #e60000;
+}
